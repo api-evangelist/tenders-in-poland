@@ -1,0 +1,32 @@
+aid: tenders-in-poland
+name: Tenders in Poland
+description: "Get data for procurements in Poland in JSON format"
+url: https://tenders.guru/pl/api
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Business"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Business
+  - Public APIs
+apis:
+  - name: Tenders in Poland
+    description: "Get data for procurements in Poland in JSON format"
+    humanURL: https://tenders.guru/pl/api
+    baseURL: https://tenders.guru/pl/api
+    tags:
+      - Business
+    properties:
+      - type: Documentation
+        url: https://tenders.guru/pl/api
+common:
+  - type: Website
+    url: https://tenders.guru/pl/api
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
